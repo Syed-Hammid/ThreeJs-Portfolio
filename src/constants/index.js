@@ -120,7 +120,7 @@ import {
       company_name: "DGbird Media",
       icon: starbucks,
       iconBg: "#fff",
-      date: "February 2020 - Present",
+      date: "February 2020 - June 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
