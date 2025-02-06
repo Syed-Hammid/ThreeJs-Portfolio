@@ -36,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        {key1},
-        {key2},
+        `${key1}`,
+        `${key2}`,
         {
           from_name: form.name,
           to_name: "Syed Hammid",
@@ -45,7 +45,7 @@ const Contact = () => {
           to_email: "iamsyedhammid@gmail.com", // Email updated to sample@gmail.com
           message: form.message,
         },
-        {key3}
+        `${key3}`
       )
       .then(
         () => {
